@@ -1,12 +1,8 @@
-.table-sortable {
-    margin-top: 2%;
-}
-
 .table-sortable th {
 	cursor: pointer;
 	border: 1px solid;
 	border-radius: 2px;
-	padding: 7px;
+	padding: 5px;
 }
 
   
