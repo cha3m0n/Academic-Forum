@@ -1,5 +1,6 @@
 .table-sortable {
     margin-top: 2%;
+	margin-left: 39%;
 }
 
 .table-sortable th {
@@ -27,4 +28,117 @@
 .table-sortable .th-sort-desc {
 	background: rgba(0, 0, 0, 0.1);
 }
+
+.columns{
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 30%;
+}
+
+.col1{
+    display: block;
+}
+
+a{
+    text-decoration: none;    
+    color: black;
+}
+
+.post #tags1{
+    color: blue;
+}
+
+.post {
+    width: 90%;
+    border: 2px solid #94CA74;
+    border-radius: 4px;
+    padding: 20px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
   
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+.post-title {
+    margin: 0;
+}
+  
+.post-content {
+    margin-bottom: 10px;
+}
+  
+.post-footer {
+    display: flex;
+    color: #999;
+}
+
+#comment {
+	width: 30px;
+	height: 30px;
+    margin-left: 0%;
+    margin-right: 0.5%;
+}
+
+#cite {
+	width: 30px;
+	height: 30px;
+    margin-left: 2%;
+    margin-right: 0.5%;
+}
+ 
+.post-comments {
+	margin-left: 0.5%;
+}
+
+.post-cited {
+    margin-left: 0.5%;
+}
+
+/* ===================================================== */
+
+.col2{
+	margin-left: 70%;
+    margin-top: -19.8%;
+    margin-right: 2%;
+}
+
+.col2 .container1{
+    border: 2px solid #94CA74;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.container1 h4{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#hed{
+    padding-top: 25px;
+}
+
+.container1 pre{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#bot{
+    margin-left: -25%;
+}
+
+.container1 .header{
+    border-bottom: #94CA74 solid 2px;
+    text-align: left;
+    background-color: #F8FCEC;
+}
+
+.header h3{
+	text-align: center;
+    padding: 10px;
+}
