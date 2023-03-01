@@ -1,0 +1,65 @@
+.container-fluid {
+    background-color: #F8FCEC;
+    border: 2px solid #94CA74;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8FCEC;
+    border: 2px solid #94CA74;
+    border-radius: 4px;
+    padding: 20px;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.cont img {
+    width: 40%;
+    max-width: 110px;
+    margin-left: 3%;
+}
+
+.cont h1 {
+    margin-left: 2%;
+}
+
+.name{
+    margin-left: 2%;
+    width: 50%;
+}
+
+.name h1{
+    font-size: 2vw;
+}
+
+.nick{
+    margin-left: 1%;
+    width: 120%;
+}
+
+.nick p{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 0.9vw;
+    color: gray;
+}
+
+.logout {
+    display: flex;
+    margin-right: 2%;
+    background-color: brown;
+    padding: .5%;
+}
+.logout p{
+    color: white;
+    font-size: 1vw;
+}

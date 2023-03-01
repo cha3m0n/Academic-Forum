@@ -1,11 +1,21 @@
+.container-fluid {
+    background-color: #F8FCEC;
+    border: 2px solid #94CA74;
+}
+
 .table-sortable {
+    background-color: #F8FCEC;
     margin-top: 2%;
-	margin-left: 39%;
+	margin-left: 39.5%;
+}
+
+.trh:hover {
+    background-color: aqua;
 }
 
 .table-sortable th {
 	cursor: pointer;
-	border: 1px solid;
+	border: 1px solid #94CA74;
 	border-radius: 2px;
 	padding: 7px;
 }
@@ -91,7 +101,11 @@ a{
     margin-left: 2%;
     margin-right: 0.5%;
 }
- 
+
+#cite:hover {
+    background-color: yellow;
+}
+
 .post-comments {
 	margin-left: 0.5%;
 }
