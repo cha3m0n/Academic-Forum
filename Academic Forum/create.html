@@ -55,7 +55,49 @@
 
     <!--Navigation Bar-->
 
-    create
+    <!-- Form -->
+
+    <form class="cr">
+      <div class="form-text">
+        <label for="ltitle">Title</label>
+        <input type="text" id="ltitle" name="Title" placeholder="Your Title..." required>
+      </div>
+      <div class="form-text">
+        <label for="content">Content</label>
+        <textarea id="content" name="content" rows="5" placeholder="Write your post here" required></textarea>
+      </div>
+      <div class="form-text">
+        <label for="tags">Tags</label>
+        <input type="text" list="tags">
+        <datalist id="tags">
+          <option>Sample Tags</option>
+        </datalist>
+      </div>
+
+      <button type="submit">Post</button>
+      <button type="cancel">Cancel</button>
+    </form>
+
+    <!-- Form -->
+
+    <!-- side reminder -->
+
+    <div class="col2">
+      <div class="container1">
+          <div class="header">
+              <h3>Reminder</h3>
+          </div>
+              <h4 id="hed">NO EDIT</h4> 
+              <h4>NO DELETE</h4>
+              <pre id="bot">
+                First Year and Third Year
+                Jan 23-27
+              </pre>
+        
+      </div>
+    </div>
+
+    <!-- side reminder -->
 
 </body>
 </html>
