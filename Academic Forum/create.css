@@ -3,12 +3,10 @@
     border: 2px solid #94CA74;
 }
 
-.cr{
-    display: flex;
-    flex-direction: column;
+.cr {
     max-width: 600px;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 10%;
     padding: 30px;
     border: 1px solid #94CA74;
     border-radius: 5px;
@@ -55,10 +53,6 @@ button[type="submit"] {
     font-size: 16px;
     cursor: pointer;
 }
-  
-button[type="submit"]:hover {
-    background-color: #3071a9;
-}
 
 button[type="cancel"] {
     padding: 10px;
@@ -71,51 +65,30 @@ button[type="cancel"] {
     margin-top: 5px;
 }
   
-button[type="cancel"]:hover {
+button[type="cancel"]{
     background-color: #7a7a7a;
     margin-bottom: 2%;
 }
 
-/* ===================================================== */
+/* right tab */
 
-.col2{
+.col2 {
     display: flex;
-	margin-left: 70%;
-    margin-top: -19.8%;
-    margin-right: 2%;
-}
-
-.col2 .container1{
-    border: 2px solid #94CA74;
+    margin-top: -35.5%;
+    margin-left: 65%;
+    width: fit-content;
+    border: 2px #94CA74 solid;
     border-radius: 4px;
-    width: 100%;
+    
 }
 
-.container1 h4{
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-#hed{
-    padding-top: 25px;
-}
-
-.container1 pre{
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-#bot{
-    margin-left: -25%;
-}
-
-.container1 .header{
-    border-bottom: #94CA74 solid 2px;
-    text-align: left;
+.cont h3 {
+    border-bottom: 2px #94CA74 solid;
+    padding: 5%;
     background-color: #F8FCEC;
 }
 
-.header h3{
-	text-align: center;
-    padding: 10px;
+.bod #bot{
+    padding: 3%;
+    margin-left: -10%;
 }
